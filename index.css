@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: auto;
+}
+
+.info {
+ width: auto;
+ margin: auto;
+}
+
+.info {
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.container {
+    width: 100vw;
+    height: 90vh;
+    background-color: #FDF8E6;
+    padding: 24px;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 18px;
+    width: 50%;
+    margin: 16px auto;
+}
+
+.card {
+    width: 120px;
+    height: 120px;
+    background-color: cadetblue;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.hidden-card {
+    position: absolute;
+    z-index: 10;
+    background-color: black;
+    width: 120px;
+    height: 120px;
+}
+
+.fail {
+    width: ;
+    margin: auto; 
+}
